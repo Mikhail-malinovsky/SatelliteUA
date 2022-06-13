@@ -1,0 +1,114 @@
+// @media screen and(min-width: 2558px){
+//     .main{
+//         .circle{
+//             position: absolute;
+//             right: 19%;
+//         }
+//     }
+// }
+// @media screen and(min-width: 2120px){
+//     .main{
+//         .circle{
+//             position: absolute;
+//             right: 10%;
+//         }
+//     }
+// }
+// @media screen and(min-width: 2065px){
+//     .main{
+//         .circle{
+//             position: absolute;
+//             right: 7%;
+//         }
+//     }
+// }
+$base_size: 16px;
+@mixin fz($px_size) {
+  font-size: $px_size * 1rem / $base_size;
+}
+@media screen and(max-width: 1590px){
+    .main{
+        .circle{
+            display: none;
+        }
+    }
+}
+@media screen and(max-width: 1395px){
+    .main{
+        .main__inner-img{
+            img{
+                width: 500px;
+            }
+        }
+    }
+    .main__inner-images {
+        position: relative;
+    }
+    .main__inner-images::before{
+        display: none;
+    }
+    .main__inner-images::after{
+display: none;
+    }
+}
+
+@media screen and(max-width: 1256px){
+    .news{
+        .news__item{
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .header__main{
+        .head-menu{
+            display: none;
+        }
+        #hamburger__menu{
+            display: block;
+        }
+    }
+}
+@media screen and(max-width: 1190px){
+    .main{
+        .main__inner-img{
+            img{
+                width: 340px;
+            }
+        }
+        .main__inner-title{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    .rates{
+        .rates__tarifs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+
+    .asw__flex{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and(max-width: 1024px){
+    .main{
+        .main__inner-img{
+            img{
+                display: none;
+            }
+        }
+        .main__inner{
+            flex-direction: column;
+        }
+    }
+}

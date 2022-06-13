@@ -1,0 +1,68 @@
+@media screen and (max-width: 1590px) {
+  .main .circle {
+    display: none;
+  }
+}
+@media screen and (max-width: 1395px) {
+  .main .main__inner-img img {
+    width: 500px;
+  }
+
+  .main__inner-images {
+    position: relative;
+  }
+
+  .main__inner-images::before {
+    display: none;
+  }
+
+  .main__inner-images::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 1256px) {
+  .news .news__item {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__main .head-menu {
+    display: none;
+  }
+  .header__main #hamburger__menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .main .main__inner-img img {
+    width: 340px;
+  }
+  .main .main__inner-title h1 {
+    font-size: 40px;
+  }
+
+  .rates .rates__tarifs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .asw__flex {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main .main__inner-img img {
+    display: none;
+  }
+  .main .main__inner {
+    flex-direction: column;
+  }
+}
